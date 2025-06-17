@@ -76,7 +76,7 @@ export default function PlayersOnlyLanding() {
               <CardContent className="pt-6">
                 <h3 className="text-xl font-semibold mb-3">Brand Safety</h3>
                 <p className="text-gray-600">
-                  AI-powered content monitoring and athlete vetting ensures your brand reputation stays protected
+                  AI-powered content monitoring ensuring your brand reputation stays protected
                 </p>
               </CardContent>
             </Card>
@@ -85,7 +85,7 @@ export default function PlayersOnlyLanding() {
               <CardContent className="pt-6">
                 <h3 className="text-xl font-semibold mb-3">Exclusive Access</h3>
                 <p className="text-gray-600">
-                  Connect with athletes unavailable on other platforms through our exclusive partnership network
+                  Connect with exclusive athletes through our unique partnership network
                 </p>
               </CardContent>
             </Card>
