@@ -126,10 +126,10 @@ export default function PlayersOnlyLanding() {
                     <span className="text-green-600 font-bold text-sm">2</span>
                   </div>
                 </div>
-                <h3 className="text-xl text-white font-semibold mb-3">Connect & Negotiate</h3>
+                <h3 className="text-xl text-white font-semibold mb-3">Connect & Sign</h3>
                 <p className="text-gray-500">
-                  Send partnership proposals directly through our platform with built-in contract templates and
-                  negotiation tools
+                  Send partnership proposals directly through our platform and use our tools to 
+                  test market values
                 </p>
               </div>
 
