@@ -6,15 +6,33 @@ export default function PlayersOnlyLanding() {
   return (
     <div className="min-h-screen bg-black">
       {/* Top bar */}
-      <header className="border-b">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <span className="text-white font-bold">PlayersOnly.io</span>
-          </div>
-          <Button variant="outline" className="hidden md:block">
-            Book a Demo
-          </Button>
-        </div>
+      <div className="bg-black flex flex-col min-h-screen text-white">
+        <header className="flex justify-between items-center bg-black-400 h-24 px-8">
+          <div className="flex items-center">
+            <Link href="https://playersonly.io/" className="hidden md:inline-flex">
+              <img
+      src="https://media.licdn.com/dms/image/v2/C4E0BAQGfpxGLiuymGA/company-logo_200_200/company-logo_200_200/0/1630620500739/playersonly_logo?e=2147483647&v=beta&t=kxyFViupk8nMOs4wMd52si7s9ItBh_8OsZ1aZoW1ANY"
+      alt="PlayersOnly Logo"
+      className="w-14 h-14 rounded-full object-cover"
+      style={{ marginRight: 0, paddingRight: 0 }}
+              />
+            </Link>
+          <span className="text-white font-extrabold tracking-normal hidden md:inline-block">
+    PLAYERSONLY
+          </span>
+      </div>
+        <nav className="gap-10 font-light hidden md:flex">
+          <Link href="https://playersonly.io/">Features</Link>
+          <Link href="https://playersonly.io/">Insights</Link>
+          <Link href="https://playersonly.io/">Solutions</Link>
+          <Link href="https://playersonly.io/">News</Link>
+        </nav>
+        <Link
+          href="https://playersonly.io/"
+          className="bg-white text-black px-7 py-2 rounded-2xl hover:bg-gray-200 transition-all duration-200 ease-in-out"
+        >
+          Book a Demo
+        </Link>
       </header>
 
       {/* Top header */}
@@ -87,63 +105,6 @@ export default function PlayersOnlyLanding() {
                 </p>
               </CardContent>
             </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* How It Works */}
-      <section id="how-it-works" className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">How PlayersOnly Works</h2>
-            <p className="text-lg text-gray-500 max-w-2xl mx-auto">
-              Find the perfect partnership with three easy steps
-            </p>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-8">
-              {/* Step 1 */}
-              <div className="text-center">
-                <div className="relative mb-6">
-                  <div className="absolute -top-1 -left-2 w-8 h-8 bg-blue-100 rounded-full flex text-center items-center justify-center">
-                    <span className="text-blue-600 font-bold text-sm">1</span>
-                  </div>
-                </div>
-                <h3 className="text-xl text-white font-semibold mb-3">Discover Athletes</h3>
-                <p className="text-gray-500">
-                  Browse our curated database of verified professional athletes filtered by sport, audience, and
-                  engagement rates
-                </p>
-              </div>
-
-              {/* Step 2 */}
-              <div className="text-center">
-                <div className="relative mb-6">
-                  <div className="absolute -top-1 -left-2 w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
-                    <span className="text-green-600 font-bold text-sm">2</span>
-                  </div>
-                </div>
-                <h3 className="text-xl text-white font-semibold mb-3">Connect & Sign</h3>
-                <p className="text-gray-500">
-                  Send partnership proposals directly through our platform and use our tools to 
-                  test market values
-                </p>
-              </div>
-
-              {/* Step 3 */}
-              <div className="text-center">
-                <div className="relative mb-6">
-                  <div className="absolute -top-1 -left-2 w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
-                    <span className="text-purple-600 font-bold text-sm">3</span>
-                  </div>
-                </div>
-                <h3 className="text-xl text-white font-semibold mb-3">Track & Optimize</h3>
-                <p className="text-gray-500">
-                  Monitor campaign performance with real-time analytics and optimize your partnerships for maximum ROI
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
