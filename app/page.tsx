@@ -78,7 +78,7 @@ export default function PlayersOnlyLanding() {
             {/* Email */}
             <div className="max-w-md mx-auto mb-8">
               <div className="flex flex-col sm:flex-row gap-3">
-                <Button className="bg-blue-600 hover:bg-white-700 px-8">Lorem Ipsum</Button>
+                <Button className="bg-white-600 hover:bg-white-700 px-8">Lorem Ipsum</Button>
               </div>
               {/* Social proof */}
               <p className="text-sm text-gray-500 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. .</p>
