@@ -22,8 +22,7 @@ export default function PlayersOnlyLanding() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ornare, tortor vel maximus efficitur, est sapien gravida ex, eu luctus orci nisi pretium elit.
-            </h1>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ornare, tortor vel maximus efficitur, est sapien gravida ex, eu luctus orci nisi pretium elit.
             </p>
@@ -31,8 +30,7 @@ export default function PlayersOnlyLanding() {
             {/* Email */}
             <div className="max-w-md mx-auto mb-8">
               <div className="flex flex-col sm:flex-row gap-3">
-                <Input type="email" placeholder="Enter your brand email to get started" className="flex-1" />
-                <Button className="bg-blue-600 hover:bg-blue-700 px-8">Lorem Ipsum</Button>
+                <Button className="bg-blue-600 hover:bg-white-700 px-8">Lorem Ipsum</Button>
               </div>
               {/* Social proof */}
               <p className="text-sm text-gray-500 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. .</p>
@@ -42,48 +40,49 @@ export default function PlayersOnlyLanding() {
       </section>
 
       {/* Value Proposition */}
-      <section className="py-16 bg-gray-200">
+      <section className="py-16 bg-gray-600">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Premium Brands Choose PlayersOnly</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Lorem ipsum </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Access verified athletes, streamlined partnerships, and measurable ROI all in one platform
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             <Card className="text-center p-6 border-0 shadow-lg ">
               <CardContent className="pt-6">
-                <h3 className="text-xl font-semibold mb-3">Verified Athletes</h3>
+                <h3 className="text-xl font-semibold mb-3">Lorem Ipsum</h3>
                 <p className="text-gray-600">
-                  Access only authenticated professional athletes with verified credentials and performance metrics
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 </p>
               </CardContent>
             </Card>
 
             <Card className="text-center p-6 border-0 shadow-lg">
               <CardContent className="pt-6">
-                <h3 className="text-xl font-semibold mb-3">Proven ROI</h3>
+                <h3 className="text-xl font-semibold mb-3">Lorem Ipsum</h3>
                 <p className="text-gray-600">
-                  Track engagement, reach, and conversion metrics with our advanced analytics dashboard
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+            <Card className="text-center p-6 border-0 shadow-lg">
+              <CardContent className="pt-6">
+                <h3 className="text-xl font-semibold mb-3">Lorem Ipsum</h3>
+                <p className="text-gray-600">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 </p>
               </CardContent>
             </Card>
 
             <Card className="text-center p-6 border-0 shadow-lg">
               <CardContent className="pt-6">
-                <h3 className="text-xl font-semibold mb-3">Brand Safety</h3>
+                <h3 className="text-xl font-semibold mb-3">Lorem ipsum</h3>
                 <p className="text-gray-600">
-                  AI-powered content monitoring ensuring your brand reputation stays protected
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="text-center p-6 border-0 shadow-lg">
-              <CardContent className="pt-6">
-                <h3 className="text-xl font-semibold mb-3">Exclusive Access</h3>
-                <p className="text-gray-600">
-                  Connect with exclusive athletes through our unique partnership network
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 </p>
               </CardContent>
             </Card>
