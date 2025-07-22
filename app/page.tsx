@@ -22,22 +22,20 @@ export default function PlayersOnlyLanding() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Connect Your Brand with
-              <span className="text-blue-600"> Elite Athletes</span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ornare, tortor vel maximus efficitur, est sapien gravida ex, eu luctus orci nisi pretium elit.
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              PlayersOnly is the exclusive platform where premium brands meet professional athletes for authentic
-              partnerships that drive real results.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ornare, tortor vel maximus efficitur, est sapien gravida ex, eu luctus orci nisi pretium elit.
             </p>
 
             {/* Email */}
             <div className="max-w-md mx-auto mb-8">
               <div className="flex flex-col sm:flex-row gap-3">
                 <Input type="email" placeholder="Enter your brand email to get started" className="flex-1" />
-                <Button className="bg-blue-600 hover:bg-blue-700 px-8">Get Started</Button>
+                <Button className="bg-blue-600 hover:bg-blue-700 px-8">Lorem Ipsum</Button>
               </div>
               {/* Social proof */}
-              <p className="text-sm text-gray-500 mt-2">Join 30+ premium brands already committed</p>
+              <p className="text-sm text-gray-500 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. .</p>
             </div>
           </div>
         </div>
